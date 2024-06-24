@@ -1,0 +1,24 @@
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .pokemon-item {
+    flex: 1 0 21%; /* Ajustez cette valeur pour afficher plus ou moins de Pokémon par ligne */
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .pokemon-item img {
+    width: 350px; /* Taille de l'image */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,20 @@
+.pokemon-details {
+  text-align: center;
+  padding: 20px;
+}
+
+.pokemon-details img {
+  width: 400px; /* Taille de l'image */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.pokemon-details h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.pokemon-details p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
